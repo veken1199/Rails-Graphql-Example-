@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Rails GraphQL Example
 
-Things you may want to cover:
+This is a simple example of how to create small API using Rails and GraphQL. 
 
-* Ruby version
+This project follows [Eddy Karanja tutorial](https://www.a.io/karanjaeddy/build-a-to-do-list-api-with-graphql-api-rails-5-part-1-irjt1e7jm). It will also include extra features and details. 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## How to run this example
+### Database:
+For this example, we are using Postgres local container that is provided with the source code.
+To start Postgres container:
+```
+$ docker-compose up
+```
