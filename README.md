@@ -13,3 +13,15 @@ To start Postgres container:
 ```
 $ docker-compose up
 ```
+To makesure all table are created and properly migrated:
+```
+rails db:create
+rails db:migrate
+rails db:migrate RAILS_ENV=test
+```
+
+### Runing the Tests
+To rspec tests at any point:
+```
+bundle exec rspec
+```
